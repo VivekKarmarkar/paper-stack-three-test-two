@@ -1,0 +1,28 @@
+# Secrets / env
+.env
+.env.local
+.env.*
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+tmp/
+
+# Claude Code session state
+.claude/
+
+# LaTeX auxiliary files (keep .tex and .pdf, drop the rest)
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb

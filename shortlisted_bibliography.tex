@@ -1,0 +1,122 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[colorlinks=true, linkcolor=blue!50!black, urlcolor=blue!50!black, citecolor=blue!50!black]{hyperref}
+\usepackage{fancyhdr}
+
+\definecolor{codeblue}{HTML}{213A87}
+\definecolor{accentred}{HTML}{BF1F1F}
+
+\titleformat{\section}{\Large\bfseries\color{codeblue}}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\large\bfseries\color{codeblue}}{\thesubsection}{0.6em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small Shortlisted Bibliography --- PAT-scan Literature}
+\rhead{\small \thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+
+\title{Shortlisted Bibliography \\[4pt]
+  \large PAT-scan Literature --- User-Curated Stack (Stack 3)}
+\author{Claude Opus 4.7}
+\date{May 31, 2026}
+
+\newcommand{\bibentry}[6]{%
+  \noindent\textbf{[#1]}~#2.~\textit{#3}.~#4, #5.~%
+  \href{https://doi.org/#6}{\texttt{doi:#6}}\par\vspace{6pt}
+}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\begin{center}
+\small\itshape
+Eight papers enriched via OpenAlex from a user-curated tree of three categories: \\
+Mathematical Foundations, Statics-based Methods, Vibrations-based Methods.
+\end{center}
+
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+%% ============================================================
+\section*{Summary}
+
+\begin{tabular}{@{}lrl@{}}
+\textbf{Category} & \textbf{Count} & \textbf{Year range} \\
+\hline
+Mathematical Foundations & 1 & 1994 \\
+Statics-based Methods    & 5 & 2003--2022 \\
+Vibrations-based Methods & 2 & 2007--2022 \\
+\hline
+\textbf{Total}           & \textbf{8} & \textbf{1994--2022} \\
+\end{tabular}
+
+\vspace{1em}
+
+%% ============================================================
+\section{Mathematical Foundations}
+
+\bibentry{1}{Raghavan, K.\ and Yagle, A.\,E.}{Forward and inverse problems in elasticity imaging of soft tissues}{IEEE Transactions on Nuclear Science}{1994}{10.1109/23.322961}
+
+\textit{University of Michigan--Ann Arbor.} Cited by 99. \quad
+Foundational formulation casting the elasticity inverse problem as a linear system via finite differences, with adaptive piston deformations. Establishes the consistency between forward and inverse problems exploited by all later work in this stack.
+
+%% ============================================================
+\section{Statics-based Methods}
+
+\bibentry{2}{Konofagou, E.\,E.\ and Harrigan, T.\,P.}{Palpation tomography --- a new technique for modulus estimation in elastography}{IEEE Ultrasonics Symposium Proceedings}{2003/2004}{10.1109/ultsym.2003.1293486}
+
+\textit{Columbia University; Exponent (United States).} \quad
+Uses multiple smaller quasi-static load cases (inspired by clinical palpation) instead of one whole-boundary load, increasing the measurement-to-parameter ratio and reducing noise sensitivity in modulus reconstruction.
+
+\bibentry{3}{Liu, Y., Sun, L., and Wang, G.}{Tomography-based 3-D anisotropic elastography using boundary measurements}{IEEE Transactions on Medical Imaging}{2005}{10.1109/tmi.2005.857232}
+
+\textit{University of Iowa; University of Iowa Hospitals and Clinics.} Cited by 41. \quad
+Anisotropic elastography framework using static displacements on the entire boundary plus partial surface force data, with adjoint-method gradients accelerating the optimization-based reconstruction.
+
+\bibentry{4}{Olson, L.\,G.\ and Throne, R.\,D.}{An inverse problem approach to stiffness mapping for early detection of breast cancer}{Inverse Problems in Science and Engineering}{2012}{10.1080/17415977.2012.700710}
+
+\textit{Rose--Hulman Institute of Technology.} Cited by 13. \quad
+3D finite-element reformulation of the boundary force/deflection inverse problem, with a genetic algorithm identifying interior tissue moduli. Detects 1\,cm tumours at 23\,dB SNR.
+
+\bibentry{5}{Mei, Y., Wang, S., Shen, X., Rabke, S., and Goenezen, S.}{Mechanics based tomography: a preliminary feasibility study}{Sensors (MDPI)}{2017}{10.3390/s17051075}
+
+\textit{Texas A\&M University.} Cited by 19.\quad Open access (gold). \quad
+Coins the term \emph{Mechanics Based Tomography} (MBT). Uses force sensors plus DIC-measured boundary displacements --- no interior measurements --- to reconstruct shear-modulus maps of stiff inclusions in a soft background.
+
+\bibentry{6}{Zhang, E., Dao, M., Karniadakis, G.\,E., and Suresh, S.}{Analyses of internal structures and defects in materials using physics-informed neural networks}{Science Advances}{2022}{10.1126/sciadv.abk0644}
+
+\textit{Brown University; MIT; Nanyang Technological University.} Cited by 344.\quad Open access (gold). \quad
+PINN framework for identifying unknown geometry and material parameters with a differentiable, trainable parameterization. Validated across linear elasticity, hyperelasticity, and plasticity --- recovers void/inclusion shape, size, location, and modulus.
+
+%% ============================================================
+\section{Vibrations-based Methods}
+
+\bibentry{7}{Peters, A.}{Digital image elasto-tomography: mechanical property reconstruction from surface measured displacement data}{Ph.D.\ thesis, University of Canterbury}{2007}{10.26021/2670}
+
+\textit{University of Canterbury.}\quad Open access (green). \quad
+Introduces Digital Image Elasto-Tomography (DIET): steady-state surface motion captured by a camera array drives a finite-element-based stiffness reconstruction, combining deterministic and stochastic algorithms. Targets breast-cancer screening as a low-cost, high-contrast alternative to mammography.
+
+\bibentry{8}{Feng, B.\,T., Ogren, A.\,C., Daraio, C., and Bouman, K.\,L.}{Visual vibration tomography: estimating interior material properties from monocular video}{IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}{2022}{10.1109/cvpr52688.2022.01575}
+
+\textit{California Institute of Technology.} Cited by 12.\quad Open access (green). \quad
+Estimates spatially-varying Young's modulus and density throughout a 3D object from a single monocular video, by extracting image-space modes from sub-pixel surface vibration and inverting to material properties. Validated on simulated and real videos.
+
+\vspace{2em}
+\hrule
+\vspace{0.5em}
+
+{\footnotesize\itshape
+Generated by the Stack 3 cap-stone skill (\texttt{/identify-papers-user}) over the curated tree at \\
+\texttt{paper-stack-three-test-two/shortlisted/}. Source: OpenAlex (resolution mode: search) on May 31, 2026.
+}
+
+\end{document}

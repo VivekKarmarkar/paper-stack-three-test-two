@@ -1,0 +1,8 @@
+1) Forward and inverse problems in elasticity imaging of soft tissues || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Mathematical Foundations/pat_scan_relevant_mathematical_foundations_linear_3D_paper_1994.pdf
+2) Tomography-based 3-D anisotropic elastography using boundary measurements || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Statics/IOWA_surface_displacement_paper_2005.pdf
+3) Mechanics Based Tomography: A Preliminary Feasibility Study || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Statics/Mechanics_based_Tomography_paper_2017.pdf
+4) Analyses of internal structures and defects in materials using physics-informed neural networks || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Statics/PINNs_Karniadakis_elasticity_paper_2022.pdf
+5) Palpation Tomography - A New Technique for Modulus Estimation in Elastography || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Statics/Palpation_Tomography_paper_2003.pdf
+6) An inverse problem approach to stiffness mapping for early detection of breast cancer || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Statics/Rose_Hulman_pat_scan_idea_paper_2013.pdf
+7) Digital Image Elasto-Tomography: Mechanical Property Reconstruction from Surface Measured Displacement Data || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Vibrations/DIET_vibrations_PhD_thesis_2007.pdf
+8) Visual Vibration Tomography: Estimating Interior Material Properties From Monocular Video || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/shortlisted/Vibrations/Visual_Vibration_Tomography_Katie_paper_2022.pdf

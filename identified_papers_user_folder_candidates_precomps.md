@@ -1,0 +1,4 @@
+1) Mechanics Based Tomography: A Preliminary Feasibility Study || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/precomps/Mechanics_based_Tomography_paper_2017.pdf
+2) Palpation Tomography - A New Technique for Modulus Estimation in Elastography || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/precomps/Palpation_Tomography_paper_2003.pdf
+3) Visual Vibration Tomography: Estimating Interior Material Properties From Monocular Video || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/precomps/Visual_Vibration_Tomography_Katie_paper_2022.pdf
+4) JAX-SSO: Differentiable Finite Element Analysis Solver for Structural Optimization and Seamless Integration with Neural Networks || /home/vivekkarmarkar/Python Files/paper-stack-three-test-two/precomps/jax_sso_paper_2024.pdf
